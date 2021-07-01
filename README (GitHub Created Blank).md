@@ -11,3 +11,9 @@
 ***MAIN PART of the Tutorial***
 
 #4 Create various components in a component folder
+
+#5 Install 'npm i react-router-dom' in the main folder
+
+#6 For some of the components, you can clean up the code by using <> instead of <div>.
+
+#7 Wrap the entire high-level-App in <BrowserRouter> and make sure to import it from 'react-router-dom'

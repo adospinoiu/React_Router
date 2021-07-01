@@ -1,19 +1,24 @@
+import { BrowserRouter } from 'react-router-dom';
+
 import './App.css';
 
 //Import Sub-Components
 import Header from './components/Header';
+import Home from './components/Home';
 import About from './components/About';
 import Profile from './components/Profile';
 
 function App() {
   return (
-    <div className="App">
-      <h1>React Router Tutorial</h1>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Home />
+        <About />
+        <Profile />
+      </div>
+    </BrowserRouter>
 
-      <Header />
-      <About />
-      <Profile />
-    </div>
   );
 }
 
