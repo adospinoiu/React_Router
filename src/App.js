@@ -1,4 +1,4 @@
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import './App.css';
 
@@ -13,10 +13,12 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header />
-      </div>  
-        <Route path='/' component={Home} />
+      </div>
+      <Switch>
+        <Route path='/' component={Home} exact/>
         <Route path="/about" component={About} />
         <Route path="/profile" component={Profile} />
+      </Switch>  
     </BrowserRouter>
 
   );

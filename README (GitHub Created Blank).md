@@ -17,3 +17,9 @@
 #6 For some of the components, you can clean up the code by using <> instead of <div>.
 
 #7 Wrap the entire high-level-App in <BrowserRouter> and make sure to import it from 'react-router-dom'
+
+#8 Implement the <Route> to route to the different sub-components. If using 'exact' after a component, it will ensure the application does not "stack" and show the main page and anything after the '/' routes.
+
+#9 Make links to the different pages using the <a> attribute. These links are in the main Header-component
+
+#10 There is performance problem with these links though; whenever the user clicks on a new link to go to a different page, it forces the entire app to re-render. This is not necessarily desireable.
