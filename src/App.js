@@ -1,22 +1,22 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 import './App.css';
 
 //Import Sub-Components
 import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Profile from './components/Profile';
+import Home from './pages/Home';
+import About from './pages/About';
+import Profile from './pages/Profile';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <Header />
-        <Home />
-        <About />
-        <Profile />
-      </div>
+      </div>  
+        <Route path='/' component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/profile" component={Profile} />
     </BrowserRouter>
 
   );
