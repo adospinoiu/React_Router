@@ -23,3 +23,7 @@
 #9 Make links to the different pages using the <a> attribute. These links are in the main Header-component
 
 #10 There is performance problem with these links though; whenever the user clicks on a new link to go to a different page, it forces the entire app to re-render. This is not necessarily desireable.
+
+#11 To prevent the re-render ... switch from <a>-href to <Link>-to and make sure you import the 'Link' from react-router-dom
+
+#12 Adding 'basename="/something"' on the top line of the <BrowserRouter> makes it so your default page is no '/' ... it becomes the '/something' and every page/route afterwards getts added on

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -7,13 +8,16 @@ function Header() {
 
             <ul className="nav">
                 <li>
-                    <a href="/">Home</a>
+                    {/* CAUSES A RE-RENDER OF THE COMPONENT <a href="/">Home</a> */}
+                    <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <a href="/about">About</a>
+                    {/* CAUSES A RE-RENDER OF THE COMPONENT <a href="/about">About</a> */}
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
-                    <a href="/profile">Profile</a>
+                    {/* CAUSES A RE-RENDER OF THE COMPONENT <a href="/profile">Profile</a> */}
+                    <Link to="/profile">Profile</Link>
                 </li>
             </ul>
         </>
