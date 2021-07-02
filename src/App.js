@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
 import Profile from './pages/Profile';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/' component={Home} exact/>
         <Route path="/about" component={About} />
         <Route path="/profile" component={Profile} />
+        <Route component={NotFound} />
       </Switch>  
     </BrowserRouter>
 
