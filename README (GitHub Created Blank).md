@@ -27,3 +27,5 @@
 #11 To prevent the re-render ... switch from <a>-href to <Link>-to and make sure you import the 'Link' from react-router-dom
 
 #12 Adding 'basename="/something"' on the top line of the <BrowserRouter> makes it so your default page is no '/' ... it becomes the '/something' and every page/route afterwards getts added on
+
+#13 Adding 'forceRefresh' on the top line of the <BrwoserRouter> will force the entire webapp to re-render whenver someone moves from page to page.
