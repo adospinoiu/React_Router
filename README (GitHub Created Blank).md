@@ -29,3 +29,9 @@
 #12 Adding 'basename="/something"' on the top line of the <BrowserRouter> makes it so your default page is no '/' ... it becomes the '/something' and every page/route afterwards getts added on
 
 #13 Adding 'forceRefresh' on the top line of the <BrwoserRouter> will force the entire webapp to re-render whenver someone moves from page to page.
+
+#14 Added button to test useState depending on user input. Also changes the display depending if the user has clicked on it or not.
+
+#15 Added onClick event which tracks the useState hook. Depending on that input, it either allows or does not allow access to certain parts of the webpage.
+
+#16 Adding two more sub-components to the Profile component which are only accessible in the Profile-component and not impacting the rest of the app
