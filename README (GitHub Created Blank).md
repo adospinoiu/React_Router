@@ -35,3 +35,5 @@
 #15 Added onClick event which tracks the useState hook. Depending on that input, it either allows or does not allow access to certain parts of the webpage.
 
 #16 Adding two more sub-components to the Profile component which are only accessible in the Profile-component and not impacting the rest of the app
+
+#17 Sub-components added. Links work properly now.
