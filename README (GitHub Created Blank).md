@@ -37,3 +37,5 @@
 #16 Adding two more sub-components to the Profile component which are only accessible in the Profile-component and not impacting the rest of the app
 
 #17 Sub-components added. Links work properly now.
+
+#18 Will use some of these tricks on my reading app.
