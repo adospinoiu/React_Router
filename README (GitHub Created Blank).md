@@ -38,4 +38,4 @@
 
 #17 Sub-components added. Links work properly now.
 
-#18 Will use some of these tricks on my reading app.
+#18 Will use some of these tricks on my reading app. Might also need to use some updated CSS.
